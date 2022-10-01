@@ -1,0 +1,369 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  scroll-behavior: smooth;
+  background-color: black;
+}
+
+
+
+.checkbtn   {
+  font-size: 30px;
+  color: white;
+  float: left;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+
+.title  {
+  margin-right: 10%;
+}
+
+#check  {
+  display: none;
+}
+
+.social-logo {
+  width: 25px;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+nav   {
+  z-index: 2;
+}
+
+li, a, button { 
+  font-family: Rubik, sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+  z-index: 2;
+}
+
+header  {
+  display: flex;
+  justify-content: space-between;
+  z-index: 20;
+  align-items: center;
+  padding: 30px 0%;
+}
+
+.nav__links li { 
+ display: inline-block;
+ padding: 0px 20px;
+}
+
+.nav__links li a  {
+  transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover  {
+  color: #ffd000;
+}
+
+
+
+
+a   {
+  text-decoration: none;
+}
+
+.img-home {
+  margin: 5%;
+  width: 60%;
+  margin-top: 0%;
+  justify-content: center;
+}
+
+.title:hover {
+  transform: translateY(-3px) scale(1.05);
+  transition: 0.5s;
+}
+
+.title-section {
+  text-align: center;
+  position: relative;
+  justify-content: center;
+  z-index: 2;
+}
+
+main {
+  min-height: 100vh;
+  position: relative;
+}
+
+video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.capa {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #1c1c1d;
+  opacity: 0.5;
+  mix-blend-mode: overlay;
+}
+
+/* BOTON */
+/* From uiverse.io by @adamgiebl */
+button {
+  --green: #ffd000;
+  font-size: 15px;
+  padding: 0.7em 2.7em;
+  margin-right: 50px;
+  letter-spacing: 0.06em;
+  position: relative;
+  font-family: "Helvetica Neue", Helvetica, Arial;
+  border-radius: 0.6em;
+  overflow: hidden;
+  transition: all 0.3s;
+  line-height: 1.4em;
+  border: 2px solid var(--green);
+  background: linear-gradient(
+    to right,
+    rgba(250, 254, 13, 0.1) 1%,
+    transparent 40%,
+    transparent 60%,
+    rgba(245, 249, 19, 0.1) 100%
+  );
+  color: white;
+  box-shadow: inset 0 0 10px rgba(243, 255, 15, 0.4),
+    0 0 9px 3px rgba(255, 255, 28, 0.1);
+  cursor: pointer;
+}
+
+button:hover {
+  color: white;
+  box-shadow: inset 0 0 10px rgba(255, 255, 11, 0.6),
+    0 0 9px 3px rgba(235, 248, 4, 0.2);
+}
+
+button:before {
+  content: "";
+  position: absolute;
+  left: -4em;
+  width: 4em;
+  height: 100%;
+  top: 0;
+  transition: transform 0.4s ease-in-out;
+  background: linear-gradient(
+    to right,
+    transparent 1%,
+    rgba(233, 229, 1, 0.1) 40%,
+    rgba(226, 238, 6, 0.1) 60%,
+    transparent 100%
+  );
+}
+
+button:hover:before {
+  transform: translateX(15em);
+}
+
+.conocenos {
+  color: rgb(255, 208, 0);
+  text-align: center;
+  font-size: 4vw;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+   margin: 25px;
+}
+
+#scripts {
+  background-color: black;
+}
+
+
+
+.scripts-description    {
+    color: white;
+    display: flex;
+    width: 25%;
+    margin: 0px auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: bold;
+}
+
+#scripts    {
+    text-align: center;
+}
+
+.img-script     {
+    border-radius: 20px;
+    padding: 10px;
+    margin-left: 5% ;
+    width: 50vw;
+    margin-top: 25px;
+}
+
+
+/* BOX-CARACT */
+ 
+.container-caracteristicas  {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card   {
+  background: white;
+  width: 270px;
+  height: 300px;
+  margin: 10px ;
+  border-radius: 15px;
+}
+
+
+.card img   {
+ 
+   width: 270px;
+   height: 143px;
+   border-radius: 10px 10px 0 0;
+} 
+
+.card h4, p   {
+ 
+ text-align: center;
+}
+
+.card p   {
+  padding-bottom: -40px;
+}
+
+.card {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.carac-sub  {
+  text-align: center;
+  display: block;
+  margin: 0px auto;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.card:hover   {
+  transform: scale(1.03);
+  transition: all 1s ease;
+}
+/* BOX-CARACT */
+
+
+
+/* REDES */
+.redes-info  {
+  display: grid;
+  grid-template-columns: 50% 20% auto;
+}
+
+.iframe-discord   {
+  margin-left: 10%;
+  width: 60%;
+  height: 100%;
+}
+
+.text-discord     {
+  font-size: 4vw;
+  color: #ffd000;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+
+.ig-discord   {
+  width: 5%;
+  margin-top: 110%;
+
+
+}
+
+.social-logo  {
+  font-size: 40px;
+  margin: 15px;
+}
+
+.social-logo:hover   {
+ color: #ffd000;
+
+}
+/* REDES */
+
+
+/* */
+.social  {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: whites;
+  text-align: center;
+}
+
+span  {
+  color: white;
+}
+
+.origins:hover  {
+  color: #ffd000;
+}
+/* */
+
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 600px)  {
+  
+
+ 
+
+  li {  
+    display: inline-flex;
+  }
+  
+  button {
+  display: none;
+  }
+
+
+
+  
+
+}
+
+/* RESPONSIVE /*
+
+
+
+
+
+
+/*LOADER */
+ #preloader  {  
+  background: #000 url(./img/zonasur.png) no-repeat center center ;
+  background-size: 10%;
+ 
+
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+ }
+
+
+/* */
